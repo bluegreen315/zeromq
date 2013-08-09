@@ -46,7 +46,7 @@ int main() {
 	s_send(publisher, "END");
 
 	long end = clock();
-	double time = (double)(end - start) / CLOCKS_PER_SEC;
+	long time = (long)(end - start) / CLOCKS_PER_SEC;
 	cout << "Publish Time : " << time << " seconds" << endl;
 //	cout << "Total_Sent " << (update_nbr + 1) << " updates" << endl;
 
